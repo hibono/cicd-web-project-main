@@ -6,7 +6,7 @@
     <hr>
     <h1>${msg}</h1>
     <h1>Hi, there (updated by mygoo)</h1>
-    <h2>Today is <fmt:formatDate value="${today}" pattern="yyyy-MM-dd" /></h2>
+    <h2>Today is <fmt:formatDate value="${today}" pattern="yyyy-MM-dd HH:mm:ss" /></h2>
     <h3>Version: 2.0</h3>
 </body>
 </html>
